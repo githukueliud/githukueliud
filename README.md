@@ -165,6 +165,18 @@ val developer = Developer(
       </div>
     </td>
     <td width="50%">
+      <h3 align="center">🎤 Whisper Core Multilanguage</h3>
+      <div align="center">
+        <a href="https://jitpack.io" target="_blank">
+          <img src="https://img.shields.io/badge/JitPack-Published-success?style=for-the-badge&logo=android&logoColor=white" />
+        </a>
+        <p><strong>Tech Stack:</strong> Kotlin, C++, JNI</p>
+        <p>Android library wrapper for Whisper speech recognition with multilanguage support. Published to JitPack for easy integration into Android projects.</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3 align="center">🔐 Private Portfolio Projects</h3>
       <div align="center">
         <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
@@ -172,20 +184,31 @@ val developer = Developer(
         <p>Enterprise mobile apps, backend services, and full-stack solutions built for clients and personal ventures.</p>
       </div>
     </td>
+    <td width="50%">
+      <h3 align="center">🚧 More Coming Soon</h3>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Status-In_Development-yellow?style=for-the-badge" />
+        <p><strong>Exciting New Projects</strong></p>
+        <p>Stay tuned for more open-source contributions and innovative mobile solutions!</p>
+      </div>
+    </td>
   </tr>
 </table>
 
-### 📱 Open Source Learning Projects
+---
+
+### 📱 Open Source & Learning Projects
 
 <div align="center">
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| [MarsPhotos](https://github.com/githukueliud/MarsPhotos) | NASA Mars rover photos app | Kotlin, Retrofit, Coil |
-| [AmphibiansApp](https://github.com/githukueliud/AmphibiansApp) | RESTful API data display | Kotlin, Coroutines |
-| [Inventory](https://github.com/githukueliud/Inventory) | Inventory management system | Kotlin, Room DB |
-| [BusSchedule](https://github.com/githukueliud/BusSchedule) | Local transit scheduling | Kotlin, Room, MVVM |
-| [Blur-O-Matic](https://github.com/githukueliud/Blur-O-Matic) | Image processing app | Kotlin, WorkManager |
+| Project | Description | Tech Stack | Status |
+|---------|-------------|------------|--------|
+| **[Whisper Core Multilanguage](https://github.com/githukueliud/whisper-core-multilanguage)** | 🎤 Android library for speech recognition | Kotlin, C++, JNI | [![](https://jitpack.io/v/githukueliud/whisper-core-multilanguage.svg)](https://jitpack.io/#githukueliud/whisper-core-multilanguage) |
+| [MarsPhotos](https://github.com/githukueliud/MarsPhotos) | NASA Mars rover photos app | Kotlin, Retrofit, Coil | ⭐ Learning |
+| [AmphibiansApp](https://github.com/githukueliud/AmphibiansApp) | RESTful API data display | Kotlin, Coroutines | ⭐ Learning |
+| [Inventory](https://github.com/githukueliud/Inventory) | Inventory management system | Kotlin, Room DB | ⭐ Learning |
+| [BusSchedule](https://github.com/githukueliud/BusSchedule) | Local transit scheduling | Kotlin, Room, MVVM | ⭐ Learning |
+| [Blur-O-Matic](https://github.com/githukueliud/Blur-O-Matic) | Image processing app | Kotlin, WorkManager | ⭐ Learning |
 
 </div>
 
@@ -208,14 +231,34 @@ struct CurrentGoals {
     let building = ["Hello Diary", "Personal Portfolio Projects"]
     let improving = ["Backend Architecture", "Mobile Performance"]
     let exploring = ["AI Integration", "Cross-platform Development"]
+    let contributing = ["Publishing libraries to JitPack", "Open Source"]
 }
 ```
 
 - 📱 Mastering **SwiftUI** and building production iOS apps
 - 🔄 Exploring **Kotlin Multiplatform** for code sharing
 - 🏗️ Designing scalable **microservices** with Spring Boot
-- 🤝 Planning to contribute more to **open source**
+- 📦 Publishing **Android libraries** to JitPack for the community
+- 🤝 Contributing more to **open source** projects
 - 📚 Sharing knowledge through technical writing
+
+---
+
+### 🏆 Achievements & Contributions
+
+<div align="center">
+
+```kotlin
+val achievements = mapOf(
+    "🎤 Open Source" to "Published Whisper Core Multilanguage to JitPack",
+    "📱 Mobile Development" to "Built production Android & iOS apps",
+    "🌐 Backend Engineering" to "Designed microservices with Spring Boot",
+    "☁️ Cloud Architecture" to "Deployed apps on AWS, GCP & Azure",
+    "🤝 Collaboration" to "Pull Shark x2 & Pair Extraordinaire badges"
+)
+```
+
+</div>
 
 ---
 
@@ -240,6 +283,7 @@ struct CurrentGoals {
 **💡 Open for:**
 - Mobile Development Projects (Android/iOS)
 - Backend Development (Spring Boot)
+- Library & SDK Development
 - Technical Consulting
 - Freelance Opportunities
 
@@ -251,4 +295,9 @@ struct CurrentGoals {
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
   
   <p>⭐️ From <a href="https://github.com/githukueliud">githukueliud</a> | Made with 💙 in Nairobi, Kenya</p>
+  
+  <p>
+    <img src="https://img.shields.io/github/followers/githukueliud?label=Followers&style=social" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/stars/githukueliud?label=Stars&style=social" alt="GitHub stars" />
+  </p>
 </div>
